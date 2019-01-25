@@ -1,0 +1,12 @@
+<h1>워드카운터를만들자</h1>
+
+<a href="{% url 'about' %}">ABOuT</a>
+<a href="{% url 'turtle' %}">아이유 사진보기</a>
+
+<form action="{% url 'count' %}">
+    <textarea cols="40" rows="10" name="fulltext"></textarea>
+    <br>
+    <input type="submit" value="Count!"/>
+
+
+</form>
